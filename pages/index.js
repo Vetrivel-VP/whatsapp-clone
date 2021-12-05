@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { StateProvider } from "./Components/StateProvider";
-import reducer, { initialState } from "./Components/reducer";
+import { StateProvider } from "../Components/StateProvider";
+import reducer, { initialState } from "../Components/reducer";
 import App from "./App";
 
 export default function Home() {

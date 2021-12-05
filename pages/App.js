@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Chat from "./Components/Chat";
-import SideBar from "./Components/SideBar";
-import Login from "./Components/Login";
+import Chat from "../Components/Chat";
+import SideBar from "../Components/SideBar";
+import Login from "../Components/Login";
 import { useRouter } from "next/router";
-import { useStateValue } from "./Components/StateProvider";
+import { useStateValue } from "../Components/StateProvider";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
